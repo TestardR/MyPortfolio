@@ -279,6 +279,10 @@ main#home h1 {
   font-size: 1.2em;
 }
 
+.cybersecurity a {
+  color: grey;
+}
+
 .cybersecurity_title {
   color: #00979d;
   font: bold;
@@ -289,8 +293,12 @@ main#home h1 {
   color: grey;
 }
 
-#signature {
+.signature {
   text-align: right;
+}
+
+.signature a {
+  color: #00979d;
 }
 
 /* Contact Me */
@@ -417,15 +425,57 @@ main#home h1 {
   }
 }
 @media screen and (max-width: 500px) {
+  .menu-btn {
+    right: 15px;
+    top: 15px;
+  }
+  main {
+    padding: 2rem;
+  }
+  .menu .nav-link {
+    font-size: 25px;
+    padding: 0.8rem;
+  }
   main#home h1 {
     margin-top: 10vh;
+    font-size: 4rem;
+  }
+  main h1.lg-heading {
+    font-size: 4rem;
+  }
+  #about h1.lg-heading {
+    font-size: 4.5rem;
   }
 
-  .projects {
-    grid-template-columns: 1fr;
+  main#about {
+    padding: 0.5rem;
+  }
+  .bio p {
+    font-size: 1rem;
+    text-align: left;
   }
   .bio-image {
     max-width: 280px;
+  }
+
+  #work h1.lg-heading {
+    font-size: 4.5rem;
+  }
+  main#work {
+    padding: 0.5rem;
+  }
+  .description p {
+    text-align: left;
+  }
+  .projects {
+    grid-template-columns: 1fr;
+  }
+  .cybersecurity {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .boxes div {
+    font-size: 1.1rem;
   }
 }
 
