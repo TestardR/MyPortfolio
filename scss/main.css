@@ -230,10 +230,16 @@ main#home h1 {
 .about-info .job-3 {
   grid-area: job3;
 }
+
 .about-info .job {
   background: #f2f2f2;
   padding: 0.5rem;
   border-bottom: #00979d 5px solid;
+}
+
+a.about {
+  color: #00979d;
+  font-weight: bold;
 }
 
 .projects {
@@ -297,8 +303,14 @@ main#home h1 {
   text-align: right;
 }
 
-.signature a {
+a.signature {
   color: #00979d;
+  font-weight: bold;
+}
+
+.sm-heading a {
+  color: #00979d;
+  font-weight: bold;
 }
 
 /* Contact Me */
@@ -474,6 +486,7 @@ main#home h1 {
     font-size: 1rem;
     text-align: left;
   }
+
   .boxes div {
     font-size: 1.1rem;
   }
